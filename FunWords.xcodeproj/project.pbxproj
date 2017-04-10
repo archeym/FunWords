@@ -13,6 +13,7 @@
 		A1DB6B871E937240006B9CEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1DB6B851E937240006B9CEB /* Main.storyboard */; };
 		A1DB6B891E937240006B9CEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1DB6B881E937240006B9CEB /* Assets.xcassets */; };
 		A1DB6B8C1E937240006B9CEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1DB6B8A1E937240006B9CEB /* LaunchScreen.storyboard */; };
+		A1DB6B941E937384006B9CEB /* AnogramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DB6B931E937384006B9CEB /* AnogramViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A1DB6B881E937240006B9CEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1DB6B8B1E937240006B9CEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1DB6B8D1E937240006B9CEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1DB6B931E937384006B9CEB /* AnogramViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnogramViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				A1DB6B7F1E937240006B9CEB /* AppDelegate.swift */,
 				A1DB6B811E937240006B9CEB /* FirstViewController.swift */,
 				A1DB6B831E937240006B9CEB /* SecondViewController.swift */,
+				A1DB6B931E937384006B9CEB /* AnogramViewController.swift */,
 				A1DB6B851E937240006B9CEB /* Main.storyboard */,
 				A1DB6B881E937240006B9CEB /* Assets.xcassets */,
 				A1DB6B8A1E937240006B9CEB /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			files = (
 				A1DB6B841E937240006B9CEB /* SecondViewController.swift in Sources */,
 				A1DB6B801E937240006B9CEB /* AppDelegate.swift in Sources */,
+				A1DB6B941E937384006B9CEB /* AnogramViewController.swift in Sources */,
 				A1DB6B821E937240006B9CEB /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +310,7 @@
 				A1DB6B921E937240006B9CEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,17 +9,34 @@
 import UIKit
 
 class FirstViewController: UIViewController {
+    @IBOutlet weak var palindromeLabel: UILabel!
+    @IBOutlet weak var textField: UITextField!
+
+   
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+      
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func palindromeButtonTapped(_ sender: Any) {
+        //var name = "madam"
+//        let something = String(name.characters.reversed())
+//        "madam" = something
+        
+        var inputText = textField.text?.lowercased()
+        inputText = inputText?.replacingOccurrences(of: " ", with: "")
+        var reversed = ""
+        
+        for char in (inputText?.characters.reversed())!{
+            reversed.append(char)
+        
+        if(reversed==inputText){
+            palindromeLabel.text = "Yes, it's a Palingram"
+        }else{
+            palindromeLabel.text = "NOPE, it's not"
+        }
     }
-
 
 }
-
+}
